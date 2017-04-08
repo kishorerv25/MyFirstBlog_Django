@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
+GELOCATION_API_KEY = "AIzaSyCJYa5cPbij8NOgvolPnd_4o0nit-kNYb4"
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -25,7 +26,7 @@ SECRET_KEY = '%gf8zhqet$!h_!$t4y%rpplqjsci7o@zfg*+t4m5st@^5!u%!6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'kishore.pythonanywhere.com']
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'kishorebg025@gmail.com'
